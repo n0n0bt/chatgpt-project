@@ -1,4 +1,4 @@
-package main
+package chatGPTapi
 
 import (
 	"encoding/json"
