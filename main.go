@@ -8,7 +8,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-var APIkey = "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"
+var APIkey = ""
 var TheClient = CreateClient(APIkey, "https://api.openai.com/v1/completions")
 
 func main() {
