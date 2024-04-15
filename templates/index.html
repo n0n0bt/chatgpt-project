@@ -12,17 +12,17 @@
 
 <body>
 
-    <h2>Talk with ChatGPT!</h2><br>
+    <h2>Create META Title and Description for your website!</h2><br>
 
     <form action="/ask" method="POST">
-        <label for="question">Ask ChatGPT:</label>
-        <input type="text" id="question" name="question">
-        <input type="submit" value="Submit">
+        <label for="website">Enter Website URL:</label>
+        <input type="text" id="website" name="website" placeholder="https://example.com">
+        <input type="submit" value="Generate">
     </form>
 
     <div>
         {{if .message}}
-        <h5>{{.message}}</h5>
+            <h5>{{.message}}</h5>
         {{end}}
     </div>
 
